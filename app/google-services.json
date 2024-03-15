@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "439117264472",
+    "project_id": "peliculas-6bae0",
+    "storage_bucket": "peliculas-6bae0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439117264472:android:9fc8cec635728a75c8fc2d",
+        "android_client_info": {
+          "package_name": "reyes.michelle.peliculas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiJ8vBhyqkk_VJuuOf3BipUBZSoAQpTD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

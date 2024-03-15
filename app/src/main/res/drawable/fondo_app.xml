@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#C68AB5"
+        android:endColor="#9BBACA"
+        />
+    <!-- Define el color de la barra de notificaciones -->
+    <item android:top="-45dp">
+        <color android:color="@color/melon" />
+    </item>
+</shape>

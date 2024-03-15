@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/fondo_app"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/et_correoInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su correo electrónico"
+        android:textColorHint="@color/textos"
+        android:ems="10"
+        android:layout_marginTop="130dp"
+        android:textSize="24sp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_contraInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Contraseña"
+        android:textColorHint="@color/textos"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/botones"
+        android:text="Iniciar Sesión" />
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/botones"
+        android:text="Registrarse" />
+
+    <TextView
+        android:id="@+id/tv_recuperacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu contraseña?"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+</LinearLayout>
